@@ -1,5 +1,3 @@
-let currentLevel = parseInt(localStorage.getItem('not-a-robot-level') || '0', 10);
-    if (currentLevel === 16) {
         function drawCircle() {
             const svg = document.querySelector("main svg");
             const drawDiv = document.querySelector("main div");
